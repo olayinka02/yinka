@@ -27,7 +27,7 @@ class Projects extends Component{
         return (
             <div>
                 <h3 className="high"> Highlighted projects</h3>
-                <p style={{color:'lightgreen',fontStyle:'italic',fontSize:16,textShadow:'black',}}>Click on image to be a visitor</p>
+                <p style={{color:'lightgreen',fontStyle:'italic',fontSize:16,textShadow:'black',}}>Click on the image to be a visitor</p>
                 <div>
                     {PROJECTS.map (PROJECTS => {
                               return (

@@ -5,6 +5,7 @@ import yinkaa from '../image/yinkaa.jpg';
 import Socials from './Socials.js';
 import Projects from './Projects.js';
 import Skills from './Skills.js';
+import Title from './Title.js';
 
 
 
@@ -30,7 +31,7 @@ class App extends React.Component {
       <img src={yinkaa} className="pic" alt="age" />
       </div>
       <h3 style={{color:'silver',fontSize:20,}}>I'm   <span className="name">  Akinseye 0luwasegun Yinka.</span></h3>
-      <p style={{fontStyle:'italic',fontSize:14,}}>I'm a Junior Frontend Developer !!...</p>
+          <h5 style={{fontStyle:'italic',fontSize:14,}}><Title /></h5>
       <div>
        
         
@@ -47,7 +48,7 @@ class App extends React.Component {
 
     />
 
-    <Carousel.Caption  className="aption" style={{color:'white',marginBottom:43,}}>
+    <Carousel.Caption  className="aption" style={{color:'white',marginBottom:23,}}>
      
      
       <div>
