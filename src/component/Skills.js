@@ -16,7 +16,7 @@ class Skills extends Component {
             <div className="container">
                  <div>
                     <h4 className="high">Hell0!!</h4>
-                    <p style={{width:300,}}>My name is Olayinka, I'm a frontend engineer.
+                    <p style={{width:300,alignContent:'left',}}>My name is Olayinka, I'm a frontend engineer.
                      I have one year experience in building an awesome
                      and cool interface.I am a fast and flexible learner.
                      I can convert all UI/UX design to code and I speak ReactJS presently,
@@ -25,8 +25,8 @@ class Skills extends Component {
            
             <div className="container">
 
-            <div>
-                <h2 className="high">Skills</h2>
+            <div style={{width:300,}}>
+                <h2 className="high" >Skills</h2>
                 <p  style={{color:'lightgreen',fontStyle:'italic',fontSize:16,textShadow:'black',}}>I'm proficient in the following Skills base on the bar.</p>
                 <li>UI/UX Design.<ProgressBar variant="success" animated now={95}/></li>
                 <li>HTML.<ProgressBar variant="success" animated now={91}/></li>
@@ -43,7 +43,7 @@ class Skills extends Component {
                     {
                     this.state.displayBio ? (
                   <div>
-                      <div  className="container">
+                      <div  className="container" style={{width:300,alignContent:'left',}} >
                        <h2 className="high">Soft Skills</h2>
                        <li>Collaboration.</li>
                        <li>Problem Solving.</li>
@@ -52,7 +52,7 @@ class Skills extends Component {
                        <li>Communication.</li>
                       </div>
 
-                      <div className="container">
+                      <div className="container" style={{width:300,alignContent:'left',}}>
                       <h2 className="high">Education</h2>
                        <p>Adekunle Ajasin University, Ondo State.</p>
                        <p>B.sc (Mathematical science)</p>
@@ -60,12 +60,12 @@ class Skills extends Component {
                        <p>2014-2018.</p>   
                       </div>
 
-                      <div className="container">
+                      <div className="container" style={{width:300,alignContent:'left',}}> 
                       <h2 className="high">Experience</h2>
                        <h5><b>Jamforte Technology.</b></h5>
                        <address>Wuse,Zone (2) Abuja.</address>
-                       <label>position:</label>
-                       <p>UI/UX Developer/Frontend Developer</p><br/>
+                       <b>Position:</b>
+                       <p>UI/UX Developer/Frontend Developer.</p><br/>
                        <li>-Making a well and cool UI/UX design.</li>
                        <li>-Prototyping UI/UX design and makes it function like a real app.</li>
                        <li>-Designing and creating gif and video if needed.</li>
