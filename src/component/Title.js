@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 const TITLES=[
-    "I'm a Junior Frontend Developer!!..",
+    "I'm a Frontend Developer!!..",
     "I'm a Mathematician!!...",
     "I love playing Chess!!.."
 ];
