@@ -16,7 +16,7 @@ class Skills extends Component {
             <div className="container">
                  <div>
                     <h4 className="high">Hell0!!</h4>
-                    <p>My name is Olayinka, I'm a frontend engineer.
+                    <p style={{width:300,}}>My name is Olayinka, I'm a frontend engineer.
                      I have one year experience in building an awesome
                      and cool interface.I am a fast and flexible learner.
                      I can convert all UI/UX design to code and I speak ReactJS presently,
