@@ -14,9 +14,9 @@ class Skills extends Component {
     render(){
         return(
             <div className="container">
-                 <div>
+                 <div style={{width:400,alignContent:'center',}}>
                     <h4 className="high">Hell0!!</h4>
-                    <p style={{width:400,alignContent:'center',}}>My name is Olayinka, I'm a frontend engineer.
+                    <p>My name is Olayinka, I'm a frontend engineer.
                      I have one year experience in building an awesome
                      and cool interface.I am a fast and flexible learner.
                      I can convert all UI/UX design to code and I speak ReactJS presently,
@@ -39,11 +39,12 @@ class Skills extends Component {
                 <li>NodeJS(Express).<ProgressBar variant="success" animated now={30}/></li>
                 <li>PHP and MySQL.<ProgressBar variant="success" animated now={60}/></li>
             </div>
+            <br/>
                
                     {
                     this.state.displayBio ? (
-                  <div>
-                      <div  className="container" style={{width:400,alignContent:'center',}} >
+                  <div><br/><br/>
+                      <div  className="container" style={{width:400,alignContent:'center',ju}} >
                        <h2 className="high">Soft Skills</h2>
                        <li>Collaboration.</li>
                        <li>Problem Solving.</li>

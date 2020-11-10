@@ -37,3 +37,6 @@
   to{opacity: 100;}
   
 }
+li{
+  justify-content: left;
+}
