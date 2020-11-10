@@ -55,7 +55,7 @@ class Skills extends Component {
 
                       <div className="container" style={{width:400,alignContent:'center',}}>
                       <h2 className="high">Education</h2>
-                       <p>Adekunle Ajasin University, Ondo State.</p>
+                       <p>Adekunle Ajasin University,Ondo State.</p>
                        <p>B.sc (Mathematical science)</p>
                        <p>Second Class Upper(4.41)</p>
                        <p>2014-2018.</p>   
